@@ -1,16 +1,23 @@
 {
   "name": "node-mongo",
   "version": "1.0.0",
-  "description": "Node MongoDB Example",
+  "description": "\"Node MongoDB Example\"",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akanom/node-mongo.git"
+  },
   "author": "Juwon",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akanom/node-mongo/issues"
+  },
+  "homepage": "https://github.com/Akanom/node-mongo#readme",
   "dependencies": {
-    "mongodb": "^3.6.2",
-    "mongoose": "^6.6.5"
+    "mongodb": "^3.6.2"
   }
 }
